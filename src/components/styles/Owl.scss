@@ -1,0 +1,39 @@
+.owl-container {
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.owl-mouth {
+  width: 100%;
+}
+
+.owl-eyes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.owl-eye {
+  width: 30%;
+}
+
+.left-eye {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  transform: translateY(-50%);
+  transform-origin: center;
+}
+
+.right-eye {
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  transform: translateY(-50%);
+  transform-origin: center;
+}

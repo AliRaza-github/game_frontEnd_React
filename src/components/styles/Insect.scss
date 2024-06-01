@@ -1,0 +1,30 @@
+.insect {
+  position: absolute;
+  cursor: move;
+  z-index: 1;
+
+  .insect-img {
+    width: 5vw;
+    height: auto;
+  }
+
+  &.bounce {
+    z-index: 10;
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  animation: bounce 1s;
+}
