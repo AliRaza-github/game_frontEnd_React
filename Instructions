@@ -1,0 +1,18 @@
+To provide clear instructions on how to run this React application, you can follow these steps:
+
+Prerequisites
+Node.js installed on your machine
+npm (Node Package Manager) installed
+Running the Application
+Clone the Repository: Open your terminal or command prompt and clone the Git repository to your local machine:
+Copy code
+git clone https://github.com/your-username/Insect-Owl-App.git
+
+
+Navigate to the Project Directory: Move into the project directory:
+cd Insect-Owl-App
+Install Dependencies: Use npm to install the project dependencies:
+npm install
+Start the Development Server: Once the dependencies are installed, start the development server:
+npm start
+View the Application: Open your web browser and navigate to http://localhost:3000 to view the running application.
